@@ -1,2 +1,2 @@
 # GelecegimAll
-GeleceğimAll haftalık içeriklerini ve eğitmenler tarafından verilen ödevleri içerir.
+GeleceğimAll haftalık içeriklerinin ödevlerini içerir.
