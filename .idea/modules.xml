@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GelecegimAll.iml" filepath="$PROJECT_DIR$/.idea/GelecegimAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mini Ödevler/Mini Ödevler.iml" filepath="$PROJECT_DIR$/Mini Ödevler/Mini Ödevler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/average-calculate/average-calculate.iml" filepath="$PROJECT_DIR$/Haftalık/Java/average-calculate/average-calculate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/body-mass/body-mass.iml" filepath="$PROJECT_DIR$/Haftalık/Java/body-mass/body-mass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/calculate-average/calculate-average.iml" filepath="$PROJECT_DIR$/Haftalık/Java/calculate-average/calculate-average.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/calculate-ticket/calculate-ticket.iml" filepath="$PROJECT_DIR$/Haftalık/Java/calculate-ticket/calculate-ticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/calculator/calculator.iml" filepath="$PROJECT_DIR$/Haftalık/Java/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/chinese-zodiac/chinese-zodiac.iml" filepath="$PROJECT_DIR$/Haftalık/Java/chinese-zodiac/chinese-zodiac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/circle-area/circle-area.iml" filepath="$PROJECT_DIR$/Haftalık/Java/circle-area/circle-area.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/email-app/email-app.iml" filepath="$PROJECT_DIR$/Haftalık/Java/email-app/email-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/event-suggestion/event-suggestion.iml" filepath="$PROJECT_DIR$/Haftalık/Java/event-suggestion/event-suggestion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/find-horoscope/find-horoscope.iml" filepath="$PROJECT_DIR$/Haftalık/Java/find-horoscope/find-horoscope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/greengrocer/greengrocer.iml" filepath="$PROJECT_DIR$/Haftalık/Java/greengrocer/greengrocer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/hypotenuse/hypotenuse.iml" filepath="$PROJECT_DIR$/Haftalık/Java/hypotenuse/hypotenuse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/kdv-calculator/kdv-calculator.iml" filepath="$PROJECT_DIR$/Haftalık/Java/kdv-calculator/kdv-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/leap-year/leap-year.iml" filepath="$PROJECT_DIR$/Haftalık/Java/leap-year/leap-year.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/login/login.iml" filepath="$PROJECT_DIR$/Haftalık/Java/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/sort-nums/sort-nums.iml" filepath="$PROJECT_DIR$/Haftalık/Java/sort-nums/sort-nums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Haftalık/Java/taximeter/taximeter.iml" filepath="$PROJECT_DIR$/Haftalık/Java/taximeter/taximeter.iml" />
+    </modules>
+  </component>
+</project>

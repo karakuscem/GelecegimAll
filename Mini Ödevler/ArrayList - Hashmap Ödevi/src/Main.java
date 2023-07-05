@@ -34,6 +34,7 @@ public class Main {
         studentsInClassC.add("Altan Babacan");
         studentsInClassC.add("Arslan Korucu");
         studentsInClassC.add("Tuğçe Sağlam");
+        studentsInClassC.add("Anıl Karaca");
 
 
         Map<String, List<String>> students = new HashMap<>();
@@ -43,7 +44,7 @@ public class Main {
 
         students.forEach((key, value) -> {
             for (String student : value) {
-                if (student.split(" ")[0].contains("an")) {
+                if (student.split(" ")[0].endsWith("an")) {
                     System.out.println(key + " sınıfından " + student + " isimli öğrencinin adı 'an' ile bitiyor.");
                 }
             }
