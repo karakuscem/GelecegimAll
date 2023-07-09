@@ -1,17 +1,11 @@
 package service;
 
-import models.Category;
-import models.Film;
-import models.Platform;
-import models.ShowTime;
+import model.Category;
+import model.Film;
 
 import java.util.List;
 
-public class FilmService {
-
-    public void addFilm(List<Film> filmList, Film film) {
-        filmList.add(film);
-    }
+public class CategoryService {
 
     public boolean findCategory(List<Category> categoryList, String categoryName) {
         for (Category category : categoryList) {
@@ -44,6 +38,4 @@ public class FilmService {
             category.setFilmCount(filmCount);
         }
     }
-
-
 }

@@ -1,10 +1,7 @@
-package models;
-
-import java.util.List;
+package model;
 
 public class Category {
     private String categoryName;
-
     private int filmCount;
 
     public Category(String categoryName) {
@@ -28,8 +25,6 @@ public class Category {
         this.filmCount = filmCount;
     }
 
-
-
     @Override
     public String toString() {
         return "Category{" +
@@ -37,5 +32,4 @@ public class Category {
                 ", filmCount=" + filmCount +
                 '}';
     }
-
 }

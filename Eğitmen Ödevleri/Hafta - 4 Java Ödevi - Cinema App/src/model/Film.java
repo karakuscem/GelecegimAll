@@ -1,4 +1,4 @@
-package models;
+package model;
 
 import java.util.List;
 
@@ -10,14 +10,6 @@ public class Film {
     private int publishYear;
     private List<ShowTime> showHours;
 
-    public List<Category> getCategoryList() {
-        return categoryList;
-    }
-
-    public void setCategoryList(List<Category> categoryList) {
-        this.categoryList = categoryList;
-    }
-
     public Film(List<Category> categoryList, List<Platform> platformList, String filmName, String directorName, int publishYear, List<ShowTime> showHours) {
         this.categoryList = categoryList;
         this.platformList = platformList;
@@ -27,6 +19,25 @@ public class Film {
         this.showHours = showHours;
     }
 
+    @Override
+    public String toString() {
+        return "Film{" +
+                "categoryList=" + categoryList +
+                ", platformList=" + platformList +
+                ", filmName='" + filmName + '\'' +
+                ", directorName='" + directorName + '\'' +
+                ", publishYear=" + publishYear +
+                ", showHours=" + showHours +
+                '}';
+    }
+
+    public List<Category> getCategoryList() {
+        return categoryList;
+    }
+
+    public void setCategoryList(List<Category> categoryList) {
+        this.categoryList = categoryList;
+    }
 
     public List<Platform> getPlatformList() {
         return platformList;
@@ -67,17 +78,4 @@ public class Film {
     public void setShowHours(List<ShowTime> showHours) {
         this.showHours = showHours;
     }
-
-    @Override
-    public String toString() {
-        return "Film{" +
-                "categoryList=" + categoryList +
-                ", platformList=" + platformList +
-                ", filmName='" + filmName + '\'' +
-                ", directorName='" + directorName + '\'' +
-                ", publishYear=" + publishYear +
-                ", showHours=" + showHours +
-                '}';
-    }
-
 }
