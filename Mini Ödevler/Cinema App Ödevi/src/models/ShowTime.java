@@ -1,7 +1,7 @@
 package models;
 
 public class ShowTime {
-    String hour;
+    private String hour;
 
     public ShowTime(String showTime) {
         this.hour = showTime;
