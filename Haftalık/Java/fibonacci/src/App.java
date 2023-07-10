@@ -6,7 +6,7 @@ public class App {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number: ");
         n = input.nextInt();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
             System.out.print(fibonacci(i) + " ");
         }
         input.close();
