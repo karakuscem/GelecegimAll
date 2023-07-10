@@ -15,10 +15,8 @@ public class App {
     }
 
     public static int power(int number, int power) {
-        int result = 1;
-        for (int i = 0; i < power; i++) {
-            result *= number;
-        }
-        return result;
+        if (power == 0)
+            return 1;
+        return number * power(number, power - 1);
     }
 }
