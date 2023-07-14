@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/armstrong/armstrong.iml" filepath="$PROJECT_DIR$/armstrong/armstrong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atm-machine/atm-machine.iml" filepath="$PROJECT_DIR$/atm-machine/atm-machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/average-calculate/average-calculate.iml" filepath="$PROJECT_DIR$/average-calculate/average-calculate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/body-mass/body-mass.iml" filepath="$PROJECT_DIR$/body-mass/body-mass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculate-average/calculate-average.iml" filepath="$PROJECT_DIR$/calculate-average/calculate-average.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculate-exponential-numbers/calculate-exponential-numbers.iml" filepath="$PROJECT_DIR$/calculate-exponential-numbers/calculate-exponential-numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculate-salary/calculate-salary.iml" filepath="$PROJECT_DIR$/calculate-salary/calculate-salary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculate-ticket/calculate-ticket.iml" filepath="$PROJECT_DIR$/calculate-ticket/calculate-ticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chinese-zodiac/chinese-zodiac.iml" filepath="$PROJECT_DIR$/chinese-zodiac/chinese-zodiac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-area/circle-area.iml" filepath="$PROJECT_DIR$/circle-area/circle-area.iml" />
+      <module fileurl="file://$PROJECT_DIR$/draw-diamond/draw-diamond.iml" filepath="$PROJECT_DIR$/draw-diamond/draw-diamond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email-app/email-app.iml" filepath="$PROJECT_DIR$/email-app/email-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/event-suggestion/event-suggestion.iml" filepath="$PROJECT_DIR$/event-suggestion/event-suggestion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fibonacci/fibonacci.iml" filepath="$PROJECT_DIR$/fibonacci/fibonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-combination/find-combination.iml" filepath="$PROJECT_DIR$/find-combination/find-combination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-horoscope/find-horoscope.iml" filepath="$PROJECT_DIR$/find-horoscope/find-horoscope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-mults/find-mults.iml" filepath="$PROJECT_DIR$/find-mults/find-mults.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-power/find-power.iml" filepath="$PROJECT_DIR$/find-power/find-power.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frequency-of-element/frequency-of-element.iml" filepath="$PROJECT_DIR$/frequency-of-element/frequency-of-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/get-pow/get-pow.iml" filepath="$PROJECT_DIR$/get-pow/get-pow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greengrocer/greengrocer.iml" filepath="$PROJECT_DIR$/greengrocer/greengrocer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/harmonic-numbers/harmonic-numbers.iml" filepath="$PROJECT_DIR$/harmonic-numbers/harmonic-numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hypotenuse/hypotenuse.iml" filepath="$PROJECT_DIR$/hypotenuse/hypotenuse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inverted-triangle/inverted-triangle.iml" filepath="$PROJECT_DIR$/inverted-triangle/inverted-triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kdv-calculator/kdv-calculator.iml" filepath="$PROJECT_DIR$/kdv-calculator/kdv-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leap-year/leap-year.iml" filepath="$PROJECT_DIR$/leap-year/leap-year.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/palindrome-number/palindrome-number.iml" filepath="$PROJECT_DIR$/palindrome-number/palindrome-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfect-number/perfect-number.iml" filepath="$PROJECT_DIR$/perfect-number/perfect-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recursive-pattern/recursive-pattern.iml" filepath="$PROJECT_DIR$/recursive-pattern/recursive-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort-nums/sort-nums.iml" filepath="$PROJECT_DIR$/sort-nums/sort-nums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sum-digit/sum-digit.iml" filepath="$PROJECT_DIR$/sum-digit/sum-digit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sum-of-evens/sum-of-evens.iml" filepath="$PROJECT_DIR$/sum-of-evens/sum-of-evens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taximeter/taximeter.iml" filepath="$PROJECT_DIR$/taximeter/taximeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transpose/transpose.iml" filepath="$PROJECT_DIR$/transpose/transpose.iml" />
+    </modules>
+  </component>
+</project>
