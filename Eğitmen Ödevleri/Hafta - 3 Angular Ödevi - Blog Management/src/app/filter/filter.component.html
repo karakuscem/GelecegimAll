@@ -1,0 +1,12 @@
+<form (submit)="applyFilter({ filterBy: this.filterBy, filterValue: this.filterValue })" class="filter-form">
+    <label for="filterBy">Filter By</label>
+    <select [(ngModel)]="filterBy" name="filterBy">
+      <option *ngFor="let option of filterOptions" [value]="option">{{ option | uppercase }}</option>
+    </select>
+    <label for="filterValue">Filter Value</label>
+    <input type="text" [(ngModel)]="filterValue" name="filterValue">
+    <div class="filter-buttons">
+      <button type="submit" class="apply-btn">Apply</button>
+      <button (click)="clearFilter()" class="clear-btn">Clear</button>
+    </div>
+</form>

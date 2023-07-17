@@ -1,0 +1,61 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+    .slide{
+      font-family: Montserrat;
+      text-align: center;
+      color: var(--writeColor);
+      font-size: 34px;
+      padding-top: 5vh;
+      overflow: hidden;
+    }
+    div{
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .header{
+      animation: appear 6s infinite;
+    }
+    .slider{
+      animation: reveal 6s infinite;
+    }
+    .span{
+      font-size: 33px;
+      color: var(--secondaryColor);
+      animation: slide 6s infinite;
+    }
+    @keyframes appear{
+      0%{opacity: 0;}
+      20%{opacity: 1;}
+      80%{opacity: 1;}
+      100%{opacity: 0;}
+    }
+    @keyframes slide{
+      0%{margin-left:-800px;}
+      20%{margin-left:-800px;}
+      35%{margin-left:0px;}
+    100%{margin-left:0px;}
+    }
+    @keyframes reveal{
+      0%{opacity: 0; width: 0px;}
+      20%{opacity: 1; width: 0px;}
+      30%{width: 655px;}
+      80%{opacity: 1;}
+      100%{opacity: 0; width: 655px;}
+    }
+ </style>
+ <body class="slide">
+    <div class="header">Blog Management System</div>
+    <div class="slider">
+       <span style="margin: 10px;" class="span">Welcome Admin!</span>
+    </div>
+    <div class="slider2">
+        <ul class="t">
+            <li>repeat.</li>
+            <li>Develop.</li>
+            <li>design.</li>
+            <li>Sketch.</li>
+            <li>Imagine.</li>
+        </ul>
+    </div>
+ </body>

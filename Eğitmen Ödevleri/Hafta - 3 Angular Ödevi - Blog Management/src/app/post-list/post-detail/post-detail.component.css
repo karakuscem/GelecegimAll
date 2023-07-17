@@ -1,0 +1,233 @@
+.post-card
+{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 40%;
+    min-width: 200px;
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header >:first-child
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content > h2
+{
+    font-size: 30px;
+    color: var(--writeColor);
+}
+
+.content > p
+{
+    font-size: 20px;
+    color: var(--writeColor);
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footer > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.edit-btn
+{
+    background-color: var(--bgColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete-btn
+{
+    background-color: var(--bgColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.edit-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}
+
+.delete-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}
+
+.edit-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+}
+
+.edit-form > h1
+{
+    font-size: 30px;
+    color: var(--writeColor);
+}
+
+.edit-form > p
+{
+    font-size: 20px;
+    color: var(--writeColor);
+}
+
+.edit-form input,
+.edit-form select
+{
+    min-width: 200px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+}
+
+.edit-form input:focus,
+.edit-form select:focus
+{
+    outline: none;
+    border: 2px solid var(--secondaryColor);
+}
+
+.edit-form input:hover,
+.edit-form select:hover
+{
+    border: 2px solid var(--secondaryColor);
+}
+
+.edit-form label
+{
+    font-size: 20px;
+    color: var(--writeColor);
+}
+
+.edit-form textarea
+{
+    min-width: 200px;
+    width: 20%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+    resize: none;
+}
+
+.update-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}
+
+.comments
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+}
+
+.comments > h1
+{
+    font-size: 30px;
+    color: var(--writeColor);
+}
+
+.comment
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    width: 30%;
+    min-width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

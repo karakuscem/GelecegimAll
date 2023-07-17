@@ -1,0 +1,165 @@
+.comment-detail
+{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 50%;
+    min-width: 500px;
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header >:first-child
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header >:last-child
+{
+    color: #aaa;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.edit-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+}
+
+.edit-form > h1
+{
+    font-size: 30px;
+    color: var(--writeColor);
+}
+
+.edit-form > p
+{
+    font-size: 20px;
+    color: var(--writeColor);
+}
+
+.edit-form input,
+.edit-form select
+{
+    min-width: 200px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+}
+
+.edit-form input:focus,
+.edit-form select:focus
+{
+    outline: none;
+    border: 2px solid var(--secondaryColor);
+}
+
+.edit-form input:hover,
+.edit-form select:hover
+{
+    border: 2px solid var(--secondaryColor);
+}
+
+.edit-form label
+{
+    font-size: 20px;
+    color: var(--writeColor);
+}
+
+.edit-form textarea
+{
+    min-width: 200px;
+    width: 20%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+    resize: none;
+}
+
+.update-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}
+
+.edit-btn
+{
+    background-color: var(--bgColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete-btn
+{
+    background-color: var(--bgColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.edit-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}
+
+.delete-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}

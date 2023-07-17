@@ -1,0 +1,11 @@
+<form class="category-add">
+    <h1>Add Category</h1>
+    <label for="title">Category Name</label>
+    <input type="text" placeholder="Category Name" [(ngModel)]="name" name="name">
+    <label for="date">Creation Date</label>
+    <input type="date" placeholder="Date" [(ngModel)]="date" name="date">
+    <div class="buttons">
+        <button (click)="addCategory()" type="button" class="add-btn">Add Category</button>
+        <button (click)="cancel()" type="button" class="cancel-btn">Cancel</button>
+    </div>
+</form>

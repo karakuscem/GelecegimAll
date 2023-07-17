@@ -1,0 +1,17 @@
+<form class="user-add-form">
+    <h1>Add User</h1>
+    <input type="text" placeholder="Username" [(ngModel)]="username" name="username" />
+    <input type="text" placeholder="Email" [(ngModel)]="email" name="email">
+    <input type="date" placeholder="Creation Date" [(ngModel)]="date" name="dateOfBirth">
+    <select [(ngModel)]="isActive" name="role">
+        <option value="" disabled>Is Active</option>
+        <option value="true">True</option>
+        <option value="false">False</option>
+    </select>
+    <div class="buttons">
+        <button (click)="handleAddUser()" class="add-btn">Add</button>
+        <button (click)="handleCancel()" class="cancel-btn">Cancel</button>
+    </div>
+    <h1 *ngIf="isSubmitted">You successfully added a user! Redirecting user list page...</h1>
+    <h1 *ngIf="isCancel">Cancelled! Redirecting user list page...</h1>
+</form>

@@ -1,0 +1,100 @@
+.detail-card
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    margin: 100px auto;
+    width: 50%;
+    min-width: 500px;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header >:first-child
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.header >:last-child
+{
+    color: #aaa;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.content >p
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.see-btn
+{
+    background-color: var(--bgColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete-btn
+{
+    background-color: var(--bgColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.see-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}
+
+.delete-btn:hover
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+}

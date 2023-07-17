@@ -1,0 +1,100 @@
+
+<div class="post-card">
+    <div class="post-detail">
+        <div class="header">
+            <p>{{postObj.POSTID}}</p>
+            <h1>{{ postObj.TITLE | uppercase}}</h1>
+        </div>
+        <div class="content">
+            <h2>Post Content</h2>
+            <p>{{ postObj.CONTENT }}</p>
+        </div>
+        <div class="footer">
+            <div>
+                <h2>Category: </h2>
+                <p>{{ category | uppercase }}</p>
+            </div>
+            <div>
+                <h2>Date :</h2>
+                <p>{{ postObj.DATE }}</p>
+            </div>
+            <div>
+                <h2>Author: </h2>
+                <p>{{ author | uppercase}}</p>
+            </div>
+            <div>
+                <h2>View: </h2>
+                <p>{{ postObj.VIEW }}</p>
+            </div>
+            <div>
+                <h2>Published: </h2>
+                <p>{{ postObj.PUBLISHED }}</p>
+            </div>
+            <div>
+                <h2>User ID: </h2>
+                <p>{{ postObj.USERID }}</p>
+            </div>
+            <div>
+                <h2>Category ID: </h2>
+                <p> {{ postObj.CATEGORYID }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="edit-btn" (click)="editPost()">Edit</button>
+        <button class="delete-btn" (click)="deletePost()">Delete</button>
+    </div>
+</div>
+
+<form *ngIf="editMode" class="edit-form">
+    <h1>Edit Post</h1>
+    <p>You are editing post number {{postObj.POSTID}}</p>
+    <label for="title">Title</label>
+    <input type="text" [(ngModel)]="postObj.TITLE" name="title">
+    <label for="content">Content</label>
+    <textarea type="textarea" [(ngModel)]="postObj.CONTENT" name="content" placeholder="Content"></textarea>
+    <label for="view">View</label>
+    <input type="text" [(ngModel)]="postObj.VIEW" name="view" placeholder="View">
+    <label for="date">Date</label>
+    <input type="date" [(ngModel)]="postObj.DATE" name="date">
+    <label for="published">Published</label>
+    <select [(ngModel)]="postObj.PUBLISHED" name="published">
+        <option value="True">True</option>
+        <option value="False">False</option>
+    </select>
+    <label for="userid">User</label>
+    <select [(ngModel)]="postObj.USERID" name="userid">
+        <option *ngFor="let user of users" [value]="user.ID">{{ user.USERNAME }}</option>
+    </select>
+    <label for="categoryid">Category</label>
+    <select [(ngModel)]="postObj.CATEGORYID" name="categoryid">
+        <option *ngFor="let category of categories" [value]="category.CATEGORYID">{{ category.NAME }}</option>
+    </select>
+    <button class="update-btn" (click)="updatePost()" type="button">Update</button>
+</form>
+
+<div class="comments">
+    <h1>Comments</h1>
+    <div class="comment" *ngFor="let comment of userComments">
+        <div>
+            <h2>Comment ID: </h2>
+            <p>{{ comment.COMMENTID }}</p>
+        </div>
+        <div>
+            <h2>Comment: </h2>
+            <p>{{ comment.COMMENT }}</p>
+        </div>
+        <div>
+            <h2>Date: </h2>
+            <p>{{ comment.DATE }}</p>
+        </div>
+        <div>
+            <h2>Post ID: </h2>
+            <p>{{ comment.POSTID }}</p>
+        </div>
+        <div>
+            <h2>User ID: </h2>
+            <p>{{ comment.USERID }}</p>
+        </div>
+    </div>
+</div>

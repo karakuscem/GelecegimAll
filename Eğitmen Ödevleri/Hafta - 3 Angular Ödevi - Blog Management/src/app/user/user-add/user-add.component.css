@@ -1,0 +1,79 @@
+.user-add-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 5px;
+}
+
+.user-add-form > h1
+{
+    padding: 30px;
+    font-size: 30px;
+    color: var(--writeColor);
+}
+
+.user-add-form input,
+.user-add-form select
+{
+    min-width: 200px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+}
+
+.user-add-form input:focus,
+.user-add-form select:focus
+{
+    outline: none;
+    border: 2px solid var(--secondaryColor);
+}
+
+.user-add-form input:hover,
+.user-add-form select:hover
+{
+    border: 2px solid var(--secondaryColor);
+}
+
+.user-add-form .buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+    gap: 10px;
+}
+
+.user-add-form .add-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-add-form .add-btn:hover,
+.user-add-form .cancel-btn:hover
+{
+    background-color: var(--secondaryColor);
+}
+
+.user-add-form .cancel-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

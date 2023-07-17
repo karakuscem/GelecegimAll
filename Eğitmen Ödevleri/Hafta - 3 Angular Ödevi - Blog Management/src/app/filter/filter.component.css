@@ -1,0 +1,55 @@
+.filter-form
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+.filter-form > input,
+.filter-form > select
+{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+    margin-right: 10px;
+}
+
+.filter-form > label
+{
+    color: var(--writeColor);
+    margin-right: 10px;
+}
+
+.filter-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.apply-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear-btn
+{
+    background-color: var(--secondaryColor);
+    color: var(--writeColor);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

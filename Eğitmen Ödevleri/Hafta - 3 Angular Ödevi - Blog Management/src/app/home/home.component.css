@@ -1,0 +1,64 @@
+.slide{
+    font-family: Montserrat;
+    text-align: center;
+    color: var(--writeColor);
+    font-size: 34px;
+    padding-top: 5vh;
+    overflow: hidden;
+  }
+
+  .slider2 {
+    margin: 6.25em auto;
+    height: 3em;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  ul,
+  li {
+    height: 13.5em;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 0px 0 1px 0;
+    height: 1em !important;
+    padding: 0px 0 0px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  
+  .t {
+    animation-name: titleflip;
+    animation: titleflip 5s ease-in-out infinite;
+      }
+  
+  @keyframes titleflip {
+    0%, 20% {
+    transform: translate(0px, -12.50em);
+    }
+    20%,
+    40% {
+   transform: translate(0px, -9.375em);
+    }
+    40%,
+    60% {
+      -webkit-transform: translate(0px, -6.44em);
+    }
+    60%,
+    80% {
+    transform: translate(0px, -3.44em);
+    }
+    80%,
+    100% {
+    transform: translate(0px, -0.315em);
+    }
+    100%,
+    0% {
+      transform: translate(0px, -12.50em);
+    }
+  }

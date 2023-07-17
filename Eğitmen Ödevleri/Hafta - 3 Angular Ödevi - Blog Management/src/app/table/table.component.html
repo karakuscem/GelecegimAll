@@ -1,0 +1,23 @@
+<table *ngIf="data.length > 0">
+  <thead>
+    <tr>
+      <th *ngFor="let column of columns">{{ column }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of pagedData">
+      <td *ngFor="let column of getObjectValues(row) | slice:0:columns.length-1; let i=index">{{ column | uppercase }}</td>
+      <div class="buttons">
+        <button class="detail-btn" (click)="handleDetailClick(getObjectValues(row)[0])" type="button" *ngIf="detailExists">Detail</button>
+        <button class="edit-btn" (click)="handleEditClick(getObjectValues(row)[0])" type="button" *ngIf="editExists">Edit</button>
+        <button class="delete-btn" (click)="handleDeleteClick(getObjectValues(row)[0])" type="button">Delete</button>
+      </div>
+    </tr>
+  </tbody>
+</table>
+
+<div class="pagination" *ngIf="totalPages > 0">
+  <button [disabled]="currentPage === 1" (click)="previousPage()">Previous</button>
+  <span>{{ currentPage }}</span>
+  <button [disabled]="currentPage === totalPages" (click)="nextPage()">Next</button>
+</div>

@@ -1,0 +1,107 @@
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+th, td, .buttons
+{
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #fff;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edit-btn,
+.detail-btn
+{
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn
+{
+    background-color: var(--secondaryColor);
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+th:last-child
+{
+    text-align: center;
+}
+
+.pagination
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination > button
+{
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.pagination > button:hover
+{
+    background-color: var(--secondaryColor);
+}
+
+.pagination > button:disabled
+{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.pagination > span
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+}

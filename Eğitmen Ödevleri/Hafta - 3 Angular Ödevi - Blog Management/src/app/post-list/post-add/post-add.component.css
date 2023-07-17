@@ -1,0 +1,91 @@
+.post-add
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.post-add input,
+.post-add select
+{
+    min-width: 200px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+}
+
+.post-add input:focus,
+.post-add select:focus
+{
+    outline: none;
+    border: 2px solid var(--secondaryColor);
+}
+
+.post-add input:hover,
+.post-add select:hover
+{
+    border: 2px solid var(--secondaryColor);
+}
+
+.post-add label
+{
+    font-size: 20px;
+    margin: 10px;
+    color: var(--writeColor);
+}
+
+.post-add textarea
+{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    resize: none;
+}
+
+.post-add > h1
+{
+    font-size: 30px;
+    color: var(--writeColor);
+}
+
+.post-add .buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+    gap: 10px;
+}
+
+.post-add .add-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.post-add .add-btn:hover,
+.post-add .cancel-btn:hover
+{
+    background-color: var(--secondaryColor);
+}
+
+.post-add .cancel-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

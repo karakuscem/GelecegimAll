@@ -1,0 +1,108 @@
+.edit-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+}
+
+.edit-form > h1
+{
+    font-size: 30px;
+    color: var(--writeColor);
+}
+
+.edit-form > p
+{
+    font-size: 20px;
+    color: var(--writeColor);
+}
+
+.edit-form input,
+.edit-form select
+{
+    min-width: 200px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+}
+
+.edit-form input:focus,
+.edit-form select:focus
+{
+    outline: none;
+    border: 2px solid var(--secondaryColor);
+}
+
+.edit-form input:hover,
+.edit-form select:hover
+{
+    border: 2px solid var(--secondaryColor);
+}
+
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+    gap: 10px;
+}
+
+.save-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-form .save-btn:hover,
+.edit-form .cancel-btn:hover
+{
+    background-color: var(--secondaryColor);
+}
+
+.add-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+.add-button > a
+{
+    background-color: var(--primaryColor);
+    color: var(--writeColor);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add-button > a:hover
+{
+    background-color: var(--secondaryColor);
+}

@@ -1,0 +1,15 @@
+<div class="detail-card">
+    <div class="header">
+        <p>{{categoryObj.CATEGORYID}}</p>
+        <p>{{categoryObj.NAME | uppercase}}</p>
+        <p>{{categoryObj.DATE}}</p>
+    </div>
+    <div class="content">
+        <p>This category contains {{this.postCount}} posts.</p>
+        <p>This category is ranked {{this.popularityNumber}} in popularity.</p>
+    </div>
+    <div class="buttons">
+        <button (click)="handleSeePostsClick(categoryObj.CATEGORYID)" class="see-btn">See Posts</button>
+        <button (click)="handleDeleteClick(categoryObj.CATEGORYID)" class="delete-btn">Delete</button>
+    </div>
+</div>

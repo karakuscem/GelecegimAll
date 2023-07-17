@@ -1,0 +1,64 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #893054;
+    padding: 25px;
+}
+
+.left-nav > a,
+.right-nav > a
+{
+    text-decoration: none;
+}
+
+
+a > span
+{
+    color: #fdf6f6;
+}
+
+.left-nav > a
+{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #e6dcdc;
+    cursor: pointer;
+}
+
+.left-nav > a:hover
+{
+    color: #dfa5bc;
+}
+
+.right-nav
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.right-nav > a
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-nav > a
+{
+    color: white;
+    font-size: 20px;
+}
+
+.right-nav > a:hover
+{
+    color: #dfa5bc;
+}
+
+.left-nav > a > span
+{
+    font-size: 25px;
+}

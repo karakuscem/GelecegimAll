@@ -1,0 +1,24 @@
+<form class="post-add">
+    <h1>Add Post</h1>
+    <label for="date">Date</label>
+    <input type="date" placeholder="Views" [(ngModel)]="date" name="date">
+    <label for="confirmed">Is Confirmed</label>
+    <select [(ngModel)]="confirmed" name="confirmed">
+        <option value="True">Confirmed</option>
+        <option value="False">Not Confirmed</option>
+    </select>
+    <label for="userId">User</label>
+    <select [(ngModel)]="userId" name="userId">
+        <option *ngFor="let user of users" [value]="user.ID">{{user.USERNAME}}</option>
+    </select>
+    <label for="postId">Post</label>
+    <select [(ngModel)]="postId" name="postId">
+        <option *ngFor="let post of posts" [value]="post.POSTID">{{post.TITLE}}</option>
+    </select>
+    <label for="title">Comment</label>
+    <textarea type="text" placeholder="Comment" [(ngModel)]="comment" name="comment"></textarea>
+    <div class="buttons">
+        <button (click)="addComment()" type="button" class="add-btn">Add Comment</button>
+        <button (click)="cancel()" type="button" class="cancel-btn">Cancel</button>
+    </div>
+</form>
