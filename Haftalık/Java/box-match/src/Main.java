@@ -4,5 +4,6 @@ public class Main {
         Fighter alex = new Fighter("Alex" , 10 , 95, 100, 0);
         Ring r = new Ring(marc,alex , 90 , 100);
         r.run();
+        mM
     }
 }
