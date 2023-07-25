@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -52,5 +49,7 @@ public class Main {
         for (String s : fixture) {
             System.out.println(s);
         }
+
+        <Map
     }
 }
