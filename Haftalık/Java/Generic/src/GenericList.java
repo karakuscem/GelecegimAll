@@ -62,8 +62,7 @@ public class GenericList<T> implements IGenericList<T> {
             {
                 capacity /= 2;
                 T[] newArr = (T[]) new Object[capacity];
-                for (int x = 0; x < size; x++)
-                    newArr[x] = arr[x];
+                System.arraycopy(arr, 0, newArr, 0, size);
                 arr = newArr;
             }
         }
