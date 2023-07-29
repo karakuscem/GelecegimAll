@@ -24,9 +24,9 @@ public class Main {
         for (int i = 0; i < 10000; i++)
             list.add(i);
         List<Integer> list1 = list.subList(0, 2500);
-        List<Integer> list2 = list.subList(0, 2500);
-        List<Integer> list3 = list.subList(0, 2500);
-        List<Integer> list4 = list.subList(0, 2500);
+        List<Integer> list2 = list.subList(2500, 5000);
+        List<Integer> list3 = list.subList(5000, 7500);
+        List<Integer> list4 = list.subList(7500, 10000);
 
         List<Integer> odds = new ArrayList<>();
         List<Integer> evens = new ArrayList<>();
